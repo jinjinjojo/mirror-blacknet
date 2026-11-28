@@ -1,0 +1,68 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/2zdv6gn97cas0.js"
+3:"/_next/static/chunks/2-pc5rxcve_e7.js"
+4:"/_next/static/chunks/3s105ko9ew7g1.js"
+5:I[75728,["$2","$3","$4"],"default"]
+6:I[71340,["$2","$3","$4"],"default"]
+7:I[86952,["$2","$3","$4"],"default"]
+8:I[64783,["$2","$3","$4"],"default"]
+9:I[39756,["$2","$3","$4"],"default"]
+a:I[37457,["$2","$3","$4"],"default"]
+1a:"ViewportBoundary"
+1b:I[97367,["$2","$3","$4"],"$1a"]
+1c:"MetadataBoundary"
+1d:I[97367,["$2","$3","$4"],"$1c"]
+1e:"$Sreact.suspense"
+:HL["/_next/static/chunks/29q3g3lip2ezt.css","style"]
+:HL["/_next/static/chunks/3mpe2jejel0v2.css","style"]
+c:X
+10:Tbaa,[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"blacknet","item":"https://blacknet.cc/"},{"@type":"ListItem","position":2,"name":"apps","item":"https://blacknet.cc/apps"},{"@type":"ListItem","position":3,"name":"rugs.fun","item":"https://blacknet.cc/sites/rugs-fun"}]},{"@context":"https://schema.org","@type":"TechArticle","headline":"rugs.fun — Deep Reverse-Engineering Dossier","description":"Full static dossier: algorithm, protocol, economics, 10 attack vectors, 8 commit-reveal bypasses, playbook.","url":"https://blacknet.cc/sites/rugs-fun","image":"https://blacknet.cc/og.svg","datePublished":"2026-11-28T01:44:53.275Z","dateModified":"2026-11-28T01:44:53.275Z","author":{"@type":"Organization","name":"blacknet"},"publisher":{"@type":"Organization","name":"blacknet","logo":{"@type":"ImageObject","url":"https://blacknet.cc/blacknet-mark.svg"}},"mainEntityOfPage":"https://blacknet.cc/sites/rugs-fun","keywords":"rugs.fun, provably fair, commit reveal, crypto gambling, reverse engineering","articleSection":"Reverse Engineering","inLanguage":"en"},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is rugs.fun?","acceptedAnswer":{"@type":"Answer","text":"A browser-based Solana-settled crypto gambling SPA with 14+ game modes (Rug Pull, Clusters, Breakout, Candleflip, Honeypot, Bear/Bull/Crab, Rug Royale, Crates, Rugpool, etc). React + socket.io + Pixi.js front-end, 5.2 MB of code-split chunks pulled for this dossier."}},{"@type":"Question","name":"Is the house algorithm visible in the client?","acceptedAnswer":{"@type":"Answer","text":"Yes. The complete generatePrices() function for Rug Pull is in generatePrices-Cb6Po-5f.js — every tuning constant (RUG_PROB, RUG_IMPACT, GOD_CANDLE_CHANCE, etc.) and all 3 seed-derivation branches are recovered."}},{"@type":"Question","name":"Is rugs.fun provably fair?","acceptedAnswer":{"@type":"Answer","text":"It uses a commit-reveal scheme with hash-chain claims and Full Shield mode mixing drand/Solana block-hash entropy. The commit, however, is never anchored on-chain or externally timestamped — it lives only in server WebSocket frames. 8 commit-reveal bypass vectors documented."}},{"@type":"Question","name":"What attack vectors have been identified?","acceptedAnswer":{"@type":"Answer","text":"10 attack vectors (3 HIGH, 4 MED, 3 LOW) plus 8 commit-reveal bypasses (1 CRITICAL, 3 HIGH, 3 MED, 1 LOW). See /attack-surface and /commit-reveal."}},{"@type":"Question","name":"How much does the operator make?","acceptedAnswer":{"@type":"Answer","text":"Order-of-magnitude estimate ($8k-$120k/day gross at mid-tier volume). Precise numbers need WS stats-frame capture."}},{"@type":"Question","name":"Nothing was executed, right?","acceptedAnswer":{"@type":"Answer","text":"Correct. No account. No wallet connected. No bets placed. All 49 chunks pulled statically from https://rugs.fun/assets/*."}}]}]16:X
+16:C
+17:[["children",{"s":"__PAGE__","h":160,"d":{"r":"$L18","p":"$@19","v":null,"s":"$c"}}]]
+13:[["children",{"s":"architecture","h":96,"d":{"r":"$L14","p":"$@15","v":"$16","s":"$c"},"c":"$Q17"}]]
+f:[["children",{"s":"rugs-fun","h":96,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/2wc1ewfi6yad7.js","async":true}]],[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$10"}}],"$L11"]]}],"p":"$@12","v":null,"s":"$c"},"c":"$Q13"}]]
+d:[["children",{"s":"sites","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}],"p":"$@e","v":null,"s":"$c"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/29q3g3lip2ezt.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/3mpe2jejel0v2.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2zdv6gn97cas0.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/2-pc5rxcve_e7.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/3s105ko9ew7g1.js","async":true}]],["$","html",null,{"lang":"en","data-theme":"dark","className":"ra-nqq_variable SPWpLW_variable","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#000000"}],["$","meta",null,{"name":"color-scheme","content":"dark"}],["$","script",null,{"defer":true,"src":"https://stats-relay.vercel.app/m.js?s=blacknet"}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"blacknet\",\"url\":\"https://blacknet.cc\",\"description\":\"Operator console for static reverse-engineering reports.\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https://blacknet.cc/apps?q={search_term_string}\",\"query-input\":\"required name=search_term_string\"}}"}}]]}],["$","body",null,{"className":"scanlines crt vignette has-letterbox","children":[["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","div",null,{"className":"grid-bg min-h-screen","style":{"position":"relative","zIndex":1},"children":[["$","$L8",null,{}],["$","main",null,{"className":"max-w-[1240px] mx-auto px-6 py-8","children":["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}],["$","footer",null,{"className":"border-t border-[var(--line)] mt-20","children":["$","div",null,{"className":"max-w-[1240px] mx-auto px-6 py-5 text-[10px] uppercase tracking-[0.2em] text-[var(--text-2)] flex flex-wrap gap-x-8 gap-y-2 mono","children":[["$","span",null,{"children":"static · no exec"}],["$","span",null,{"children":"read only"}],["$","span",null,{"children":"v0.1"}]]}]}]]}]]}]]}]]}],"p":"$@b","v":null,"s":"$c"},"c":"$Qd"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1b",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1d",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"rugs.fun · deep dossier"}],["$","meta","1",{"name":"description","content":"Full static reverse-engineering dossier of rugs.fun — 14 game modes, generatePrices() algorithm, seed derivation, 10 attack vectors, 8 commit-reveal bypasses, operator economics, dev revenue estimate, playbook."}],["$","meta","2",{"name":"application-name","content":"blacknet"}],["$","meta","3",{"name":"author","content":"blacknet"}],["$","link","4",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","5",{"name":"keywords","content":"rugs.fun,rugs fun,rugs.fun reverse engineering,provably fair bypass,commit reveal exploit,crypto gambling vulnerability,solana gambling analysis,seedrandom alea state recovery,price curve prediction,rug pull algorithm,gaming house edge"}],"$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f"]}]}],null]}],"$L30"]}],"p":"$@31","v":null,"s":"$c"}},"a":"$@32","u":"$@33","b":"bCYrMULYhGzgNj9kxbrvl"}
+34:"/_next/static/chunks/2wc1ewfi6yad7.js"
+35:I[41345,["$2","$3","$4","$34"],"default"]
+36:I[47257,["$2","$3","$4"],"ClientPageRoot"]
+37:"/_next/static/chunks/02q-80q6ggbp5.js"
+38:"/_next/static/chunks/155_21ttc_k2u.js"
+39:"/_next/static/chunks/26ib5d5o-0xis.js"
+3a:I[75685,["$2","$3","$4","$34","$37","$38","$39"],"default"]
+3d:I[97367,["$2","$3","$4"],"OutletBoundary"]
+3f:I[27201,["$2","$3","$4"],"IconMark"]
+11:["$","$L35",null,{"nav":[{"href":"/sites/rugs-fun","label":"OVERVIEW","idx":"00"},{"href":"/sites/rugs-fun/architecture","label":"ARCH","idx":"01"},{"href":"/sites/rugs-fun/algorithm","label":"ALGORITHM","idx":"02"},{"href":"/sites/rugs-fun/game-modes","label":"GAME MODES","idx":"03"},{"href":"/sites/rugs-fun/protocol","label":"PROTOCOL","idx":"04"},{"href":"/sites/rugs-fun/economics","label":"ECONOMICS","idx":"05"},{"href":"/sites/rugs-fun/revenue","label":"REVENUE","idx":"06"},{"href":"/sites/rugs-fun/attack-surface","label":"ATTACKS","idx":"07"},{"href":"/sites/rugs-fun/commit-reveal","label":"COMMIT-REVEAL","idx":"08"},{"href":"/sites/rugs-fun/live-verify","label":"LIVE VERIFY","idx":"09"},{"href":"/sites/rugs-fun/exposed","label":"EXPOSED","idx":"10"},{"href":"/sites/rugs-fun/playbook","label":"PLAYBOOK","idx":"11"}],"appName":"RUGS.FUN","appVersion":"live","appKind":"security / exploits / browser","children":["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]}]
+14:["$","$1","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}]
+18:["$","$1","c",{"children":[["$","$L36",null,{"Component":"$3a","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@3b","$@3c"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/02q-80q6ggbp5.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/155_21ttc_k2u.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/26ib5d5o-0xis.js","async":true}]],["$","$L3d",null,{"children":["$","$1e",null,{"name":"Next.MetadataOutlet","children":"$@3e"}]}]]}]
+1f:["$","meta","6",{"name":"creator","content":"blacknet"}]
+20:["$","meta","7",{"name":"publisher","content":"blacknet"}]
+21:["$","meta","8",{"name":"robots","content":"index, follow"}]
+22:["$","meta","9",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}]
+23:["$","meta","10",{"name":"category","content":"security"}]
+24:["$","link","11",{"rel":"canonical","href":"https://blacknet.cc/sites/rugs-fun"}]
+25:["$","meta","12",{"property":"og:title","content":"rugs.fun · deep dossier"}]
+26:["$","meta","13",{"property":"og:description","content":"Full RE: algorithm, 10 attack vectors, 8 commit-reveal bypasses, playbook."}]
+27:["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}]
+28:["$","meta","15",{"name":"twitter:title","content":"blacknet // operator console"}]
+29:["$","meta","16",{"name":"twitter:description","content":"Static reverse-engineering dossiers for shipped software."}]
+2a:["$","meta","17",{"name":"twitter:image","content":"https://blacknet.cc/og.svg"}]
+2b:["$","link","18",{"rel":"shortcut icon","href":"/blacknet-mark.svg"}]
+2c:["$","link","19",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}]
+2d:["$","link","20",{"rel":"icon","href":"/blacknet-mark.svg","type":"image/svg+xml"}]
+2e:["$","link","21",{"rel":"apple-touch-icon","href":"/blacknet-mark.svg"}]
+2f:["$","$L3f","22",{}]
+30:["$","meta",null,{"name":"next-size-adjust","content":""}]
+c:300
+3b:{}
+3c:"$18:props:children:0:props:serverProvidedParams:params"
+3e:null
+33:true
+c:C
+32:0
+15:"$undefined"
+e:"$undefined"
+b:"$undefined"
+31:"$undefined"
+19:"$undefined"
+12:"$undefined"

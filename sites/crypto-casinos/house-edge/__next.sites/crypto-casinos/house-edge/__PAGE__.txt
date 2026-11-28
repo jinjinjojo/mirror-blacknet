@@ -1,0 +1,65 @@
+4:"$Sreact.fragment"
+5:"/_next/static/chunks/2zdv6gn97cas0.js"
+6:"/_next/static/chunks/2-pc5rxcve_e7.js"
+7:"/_next/static/chunks/3s105ko9ew7g1.js"
+8:I[39756,["$5","$6","$7"],"default"]
+9:I[37457,["$5","$6","$7"],"default"]
+e:"/_next/static/chunks/3l83s-cc70y_n.js"
+f:"/_next/static/chunks/155_21ttc_k2u.js"
+10:"/_next/static/chunks/07yuf3cwwnjkk.js"
+11:"/_next/static/chunks/2_zew2kwdt0c3.js"
+12:"/_next/static/chunks/3hbosajee3mdj.js"
+13:I[38286,["$5","$6","$7","$e","$f","$10","$11","$12"],"Section"]
+14:I[38286,["$5","$6","$7","$e","$f","$10","$11","$12"],"Card"]
+15:I[38286,["$5","$6","$7","$e","$f","$10","$11","$12"],"Mono"]
+16:I[38286,["$5","$6","$7","$e","$f","$10","$11","$12"],"Chip"]
+17:I[64366,["$5","$6","$7","$e","$f","$10","$11","$12"],"default"]
+18:I[38286,["$5","$6","$7","$e","$f","$10","$11","$12"],"Table"]
+33:"ViewportBoundary"
+34:I[97367,["$5","$6","$7"],"$33"]
+35:"MetadataBoundary"
+36:I[97367,["$5","$6","$7"],"$35"]
+37:"$Sreact.suspense"
+38:I[27201,["$5","$6","$7"],"IconMark"]
+b:X
+b:C
+c:X
+d:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$4","c",{"children":[[["$","$L13",null,{"num":"01","kicker":"the only number that matters","title":"Every bet has a price tag","children":["$","$L14",null,{"children":["$","p",null,{"className":"text-[13px] text-[var(--text-1)] leading-[1.8] max-w-3xl","children":["A 2x dice bet at a 1% house edge wins ",["$","$L15",null,{"children":"49.5%"}]," of the time, not 50%. Expected value of a $1 bet is"," ",["$","$L15",null,{"children":"0.495 × $2 − $1 = −$0.01"}],". That cent is the casino's fee, charged on every bet, whether you win or lose that bet. One bet is a coin flip. Ten thousand bets are a bill. The simulator runs ",500," players making $1 bets from a $100 bankroll."]}]}]}],["$","$L13",null,{"num":"02","kicker":"simulator","title":"500 players, one house","right":["$","$L16",null,{"kind":"accent","children":"interactive"}],"children":[["$","$L17",null,{}],["$","p",null,{"className":"text-[12px] text-[var(--text-1)] leading-[1.75] mt-4 max-w-3xl","children":"Push the bets slider up and watch the \"players ahead\" number fall while the realized edge settles on the advertised one. A few winners are guaranteed, and they are the ones you see on stream. The house never needs any single bet to go its way; it needs volume. Rakeback only scales the edge down by a fixed fraction, so the house still keeps the rest."}]]}],["$","$L13",null,{"num":"03","kicker":"edge by game","title":"What each game costs you","children":[["$","$L18",null,{"cols":["Game","RTP","House edge","Set by","Notes"],"rows":[[["$","span","g",{"className":"text-[var(--text-0)]","children":"Originals: dice, limbo, plinko, mines"}],["$","$L15","r",{"children":"99%"}],["$","$L15","e",{"className":"text-[var(--warn)]","children":"1%"}],["$","span","w",{"className":"text-[var(--text-1)]","children":"Casino (in-house code)"}],["$","span","n",{"className":"text-[var(--text-1)] text-[12px]","children":["Baked into the provably-fair result formula. No provider fee, so the casino keeps the full edge."," ",["$","a",null,{"href":"https://stake.com/en/casino/games/plinko","target":"_blank","rel":"noreferrer","className":"mono text-[10px] uppercase tracking-[0.15em] text-[var(--text-2)] hover:text-[var(--accent)] whitespace-nowrap","children":"src ↗"}]]}]],[["$","span","g",{"className":"text-[var(--text-0)]","children":"Crash (multiplayer)"}],["$","$L15","r",{"children":"~99%"}],["$","$L15","e",{"className":"text-[var(--warn)]","children":"~1%"}],["$","span","w",{"className":"text-[var(--text-1)]","children":"Casino"}],["$","span","n",{"className":"text-[var(--text-1)] text-[12px]","children":["A fixed slice of rounds bust instantly at 1.00x; that slice is the edge."," ",null]}]],[["$","span","g",{"className":"text-[var(--text-0)]","children":"Blackjack"}],["$","$L15","r",{"children":"98–99.5%"}],["$","$L15","e",{"className":"text-[var(--warn)]","children":"0.5–2%"}],["$","span","w",{"className":"text-[var(--text-1)]","children":"Rules + player skill"}],["$","span","n",{"className":"text-[var(--text-1)] text-[12px]","children":["Depends on rules (3:2 vs 6:5, dealer hits soft 17) and on whether the player follows basic strategy."," ",["$","a",null,{"href":"https://track360.io/blog/online-casino-business-model-economics-ggr-ngr-2026","target":"_blank","rel":"noreferrer","className":"mono text-[10px] uppercase tracking-[0.15em] text-[var(--text-2)] hover:text-[var(--accent)] whitespace-nowrap","children":"src ↗"}]]}]],[["$","span","g",{"className":"text-[var(--text-0)]","children":"Baccarat"}],["$","$L15","r",{"children":"~98.9%"}],["$","$L15","e",{"className":"text-[var(--warn)]","children":"~1.06% banker"}],["$","span","w",{"className":"text-[var(--text-1)]","children":"Rules"}],["$","span","n",{"className":"text-[var(--text-1)] text-[12px]","children":["Banker bet after 5% commission. Tie bet is far worse."," ",["$","a",null,{"href":"https://track360.io/blog/online-casino-business-model-economics-ggr-ngr-2026","target":"_blank","rel":"noreferrer","className":"mono text-[10px] uppercase tracking-[0.15em] text-[var(--text-2)] hover:text-[var(--accent)] whitespace-nowrap","children":"src ↗"}]]}]],["$L19","$L1a","$L1b","$L1c","$L1d"],["$L1e","$L1f","$L20","$L21","$L22"],["$L23","$L24","$L25","$L26","$L27"],["$L28","$L29","$L2a","$L2b","$L2c"]]}],"$L2d"]}]],["$L2e","$L2f","$L30"],"$L31"]}],"p":"$@32","v":null,"s":"$c"}}]]
+3:[["children",{"s":"house-edge","h":64,"d":{"r":["$","$4","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]]}],"p":"$@a","v":"$b","s":"$c"},"c":"$Qd"}]]
+2:[["children",{"s":"crypto-casinos","h":32,"c":"$Q3"}]]
+1:[["children",{"s":"sites","h":96,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$4","h",{"children":[null,["$","$L34",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L36",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$37",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"house edge simulator · crypto casinos · blacknet"}],["$","meta","1",{"name":"description","content":"Simulate 500 players betting against a casino and see what each game really costs: originals 1%, roulette 2.7%, slots 3–12%, parlays 20–30%."}],["$","meta","2",{"name":"application-name","content":"blacknet"}],["$","meta","3",{"name":"author","content":"blacknet"}],["$","link","4",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","5",{"name":"keywords","content":"crypto casino,how crypto casinos make money,stake.com revenue,house edge,crypto casino white label,softswiss,rakeback explained,crypto casino withdrawal,curacao gaming licence,anjouan licence,sweepstakes casino,gambling affiliate negative carryover"}],["$","meta","6",{"name":"creator","content":"blacknet"}],["$","meta","7",{"name":"publisher","content":"blacknet"}],["$","meta","8",{"name":"robots","content":"index, follow"}],["$","meta","9",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","10",{"name":"category","content":"security"}],["$","link","11",{"rel":"canonical","href":"https://blacknet.cc/sites/crypto-casinos/house-edge"}],["$","meta","12",{"property":"og:title","content":"house edge simulator"}],["$","meta","13",{"property":"og:description","content":"Simulate 500 players betting against a casino and see what each game really costs: originals 1%, roulette 2.7%, slots 3–12%, parlays 20–30%."}],["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","15",{"name":"twitter:title","content":"blacknet // operator console"}],["$","meta","16",{"name":"twitter:description","content":"Static reverse-engineering dossiers for shipped software."}],["$","meta","17",{"name":"twitter:image","content":"https://blacknet.cc/og.svg"}],["$","link","18",{"rel":"shortcut icon","href":"/blacknet-mark.svg"}],["$","link","19",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","20",{"rel":"icon","href":"/blacknet-mark.svg","type":"image/svg+xml"}],["$","link","21",{"rel":"apple-touch-icon","href":"/blacknet-mark.svg"}],["$","$L38","22",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@39","v":null,"s":"$c"}},"a":"$@3a","u":"$@3b","b":"bCYrMULYhGzgNj9kxbrvl"}
+3c:I[97367,["$5","$6","$7"],"OutletBoundary"]
+19:["$","span","g",{"className":"text-[var(--text-0)]","children":"European roulette"}]
+1a:["$","$L15","r",{"children":"97.3%"}]
+1b:["$","$L15","e",{"className":"text-[var(--warn)]","children":"2.7%"}]
+1c:["$","span","w",{"className":"text-[var(--text-1)]","children":"Math (1 zero / 37 pockets)"}]
+1d:["$","span","n",{"className":"text-[var(--text-1)] text-[12px]","children":["American double-zero wheels double it to 5.26%."," ",null]}]
+1e:["$","span","g",{"className":"text-[var(--text-0)]","children":"Slots (third-party)"}]
+1f:["$","$L15","r",{"children":"88–97%"}]
+20:["$","$L15","e",{"className":"text-[var(--warn)]","children":"3–12%"}]
+21:["$","span","w",{"className":"text-[var(--text-1)]","children":"Operator picks an RTP variant"}]
+22:["$","span","n",{"className":"text-[var(--text-1)] text-[12px]","children":["Studios certify the same slot at several RTPs (e.g. 96 / 94 / 88%). The operator chooses which one you play, and the game screen is the only place it shows."," ",["$","a",null,{"href":"https://track360.io/blog/slot-rtp-volatility-portfolio-optimization-operator-2026","target":"_blank","rel":"noreferrer","className":"mono text-[10px] uppercase tracking-[0.15em] text-[var(--text-2)] hover:text-[var(--accent)] whitespace-nowrap","children":"src ↗"}]]}]
+23:["$","span","g",{"className":"text-[var(--text-0)]","children":"Sportsbook singles"}]
+24:["$","$L15","r",{"children":"~95%"}]
+25:["$","$L15","e",{"className":"text-[var(--warn)]","children":"4.76% theoretical"}]
+26:["$","span","w",{"className":"text-[var(--text-1)]","children":"Odds margin (vig)"}]
+27:["$","span","n",{"className":"text-[var(--text-1)] text-[12px]","children":["A two-way market at -110 / -110. Real hold runs higher: 9.2% (2024) and ~10.2% (2025) in the US."," ",["$","a",null,{"href":"https://www.legalsportsreport.com/263300/sportsbooks-make-more-money-from-slower-sports-betting-growth-in-2025/","target":"_blank","rel":"noreferrer","className":"mono text-[10px] uppercase tracking-[0.15em] text-[var(--text-2)] hover:text-[var(--accent)] whitespace-nowrap","children":"src ↗"}]]}]
+28:["$","span","g",{"className":"text-[var(--text-0)]","children":"Parlays / same-game multis"}]
+29:["$","$L15","r",{"children":"70–80%"}]
+2a:["$","$L15","e",{"className":"text-[var(--warn)]","children":"20–30%"}]
+2b:["$","span","w",{"className":"text-[var(--text-1)]","children":"Compounded margin"}]
+2c:["$","span","n",{"className":"text-[var(--text-1)] text-[12px]","children":["Each leg's margin multiplies. Heavily pushed in promos for that reason."," ",null]}]
+2d:["$","$L14",null,{"className":"mt-3","accent":true,"children":[["$","div",null,{"className":"eyebrow mb-2","children":"the slot RTP trick"}],["$","p",null,{"className":"text-[12px] text-[var(--text-1)] leading-[1.75]","children":["Pragmatic Play's own \"1000 series\" RTPs \"can still be tweaked downwards by operators\". The same slot can return 96% on one casino and 88% on another."," ",["$","a",null,{"href":"https://igamingbusiness.com/casino-games/egaming-monitor-trend-towards-generous-slot-variants/","target":"_blank","rel":"noreferrer","className":"mono text-[10px] uppercase tracking-[0.15em] text-[var(--text-2)] hover:text-[var(--accent)] whitespace-nowrap","children":"src ↗"}]]}]]}]
+2e:["$","script","script-0",{"src":"/_next/static/chunks/07yuf3cwwnjkk.js","async":true}]
+2f:["$","script","script-1",{"src":"/_next/static/chunks/2_zew2kwdt0c3.js","async":true}]
+30:["$","script","script-2",{"src":"/_next/static/chunks/3hbosajee3mdj.js","async":true}]
+31:["$","$L3c",null,{"children":["$","$37",null,{"name":"Next.MetadataOutlet","children":"$@3d"}]}]
+3b:true
+c:300
+3d:null
+c:C
+3a:0
+a:"$undefined"
+39:"$undefined"
+32:"$undefined"

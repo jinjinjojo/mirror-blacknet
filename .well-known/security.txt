@@ -1,0 +1,4 @@
+Contact: https://blacknet.cc/about
+Preferred-Languages: en
+Policy: https://blacknet.cc/about
+Canonical: https://blacknet.cc/.well-known/security.txt

@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://blacknet.cc
+Sitemap: https://blacknet.cc/sitemap.xml

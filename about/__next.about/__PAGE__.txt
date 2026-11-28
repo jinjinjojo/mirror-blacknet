@@ -1,0 +1,59 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/2zdv6gn97cas0.js"
+3:"/_next/static/chunks/2-pc5rxcve_e7.js"
+4:"/_next/static/chunks/3s105ko9ew7g1.js"
+5:I[75728,["$2","$3","$4"],"default"]
+6:I[71340,["$2","$3","$4"],"default"]
+7:I[86952,["$2","$3","$4"],"default"]
+8:I[64783,["$2","$3","$4"],"default"]
+9:I[39756,["$2","$3","$4"],"default"]
+a:I[37457,["$2","$3","$4"],"default"]
+17:"ViewportBoundary"
+18:I[97367,["$2","$3","$4"],"$17"]
+19:"MetadataBoundary"
+1a:I[97367,["$2","$3","$4"],"$19"]
+1b:"$Sreact.suspense"
+:HL["/_next/static/chunks/29q3g3lip2ezt.css","style"]
+:HL["/_next/static/chunks/3mpe2jejel0v2.css","style"]
+c:X
+f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","section",null,{"className":"pt-6 pb-10","children":[["$","div",null,{"className":"eyebrow mb-3","children":"DOSSIER"}],["$","h1",null,{"className":"display display-lg","children":["ABOUT THIS ",["$","span",null,{"className":"grad-text","children":"CONSOLE"}]]}],["$","p",null,{"className":"text-[var(--text-1)] mt-4 max-w-3xl text-[14px] leading-[1.7]","children":"Operator console for people who care how shipped software is actually built. Every claim pinned to a byte in a shipped artifact. Nothing executed. Nothing scraped at scale. Nothing proxied through a backend you can't see."}]]}],["$","div",null,{"className":"rule-label","children":"RULES OF ENGAGEMENT"}],["$","div",null,{"className":"panel","children":[["$","div",null,{"className":"panel-head","children":[["$","span",null,{"className":"idx","children":"//01"}],["$","span",null,{"className":"sep","children":"//"}],["$","span",null,{"className":"title","children":"What this is"}]]}],["$","div",null,{"className":"panel-body text-[12px] text-[var(--text-1)] leading-[1.75] space-y-2","children":["$L10","$L11","$L12"]}]]}],"$L13","$L14"],null,"$L15"]}],"p":"$@16","v":null,"s":"$c"}}]]
+d:[["children",{"s":"about","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}],"p":"$@e","v":null,"s":"$c"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/29q3g3lip2ezt.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/3mpe2jejel0v2.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2zdv6gn97cas0.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/2-pc5rxcve_e7.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/3s105ko9ew7g1.js","async":true}]],["$","html",null,{"lang":"en","data-theme":"dark","className":"ra-nqq_variable SPWpLW_variable","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#000000"}],["$","meta",null,{"name":"color-scheme","content":"dark"}],["$","script",null,{"defer":true,"src":"https://stats-relay.vercel.app/m.js?s=blacknet"}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"blacknet\",\"url\":\"https://blacknet.cc\",\"description\":\"Operator console for static reverse-engineering reports.\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https://blacknet.cc/apps?q={search_term_string}\",\"query-input\":\"required name=search_term_string\"}}"}}]]}],["$","body",null,{"className":"scanlines crt vignette has-letterbox","children":[["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","div",null,{"className":"grid-bg min-h-screen","style":{"position":"relative","zIndex":1},"children":[["$","$L8",null,{}],["$","main",null,{"className":"max-w-[1240px] mx-auto px-6 py-8","children":["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}],["$","footer",null,{"className":"border-t border-[var(--line)] mt-20","children":["$","div",null,{"className":"max-w-[1240px] mx-auto px-6 py-5 text-[10px] uppercase tracking-[0.2em] text-[var(--text-2)] flex flex-wrap gap-x-8 gap-y-2 mono","children":[["$","span",null,{"children":"static · no exec"}],["$","span",null,{"children":"read only"}],["$","span",null,{"children":"v0.1"}]]}]}]]}]]}]]}]]}],"p":"$@b","v":null,"s":"$c"},"c":"$Qd"},"h":{"r":["$","$1","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1b",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"dossier · about · blacknet"}],["$","meta","1",{"name":"description","content":"About the console. What this is, what this is not, rules of engagement."}],["$","meta","2",{"name":"application-name","content":"blacknet"}],["$","meta","3",{"name":"author","content":"blacknet"}],["$","link","4",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","5",{"name":"keywords","content":"reverse engineering,static analysis,decompile,pe parser,binary analysis,roblox executor,electron app analysis,operator console,exploit writeup,hacker console,infosec,cyber,ghidra,ida pro,radare2"}],["$","meta","6",{"name":"creator","content":"blacknet"}],["$","meta","7",{"name":"publisher","content":"blacknet"}],["$","meta","8",{"name":"robots","content":"index, follow"}],["$","meta","9",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],"$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f"]}]}],null]}],"$L30"]}],"p":"$@31","v":null,"s":"$c"}},"a":"$@32","u":"$@33","b":"bCYrMULYhGzgNj9kxbrvl"}
+34:I[97367,["$2","$3","$4"],"OutletBoundary"]
+36:I[27201,["$2","$3","$4"],"IconMark"]
+10:["$","p",null,{"children":"Static reverse-engineering reports (dossiers) for native, Electron, and web-wrapped software. Each dossier is produced with disciplined pipeline: unpack, inspect, decompile named exports, trace end-to-end flow, publish with evidence citations."}]
+11:["$","p",null,{"children":"In-browser operator tools that never phone home."}]
+12:["$","p",null,{"children":"Curated advisory feed and long-form writeups."}]
+13:["$","div",null,{"className":"panel mt-3","children":[["$","div",null,{"className":"panel-head","children":[["$","span",null,{"className":"idx","children":"//02"}],["$","span",null,{"className":"sep","children":"//"}],["$","span",null,{"className":"title","children":"What this is not"}]]}],["$","div",null,{"className":"panel-body text-[12px] text-[var(--text-1)] leading-[1.75] space-y-2","children":[["$","p",null,{"children":"Not an exploit shop. Not a cheat distribution site. Not a cracked-software index."}],["$","p",null,{"children":"Dossiers describe how software works. They are not instructions to attack it."}],["$","p",null,{"children":"Nothing on this site runs the targets it analyzes."}]]}]]}]
+14:["$","div",null,{"className":"panel mt-3","children":[["$","div",null,{"className":"panel-head","children":[["$","span",null,{"className":"idx","children":"//03"}],["$","span",null,{"className":"sep","children":"//"}],["$","span",null,{"className":"title","children":"Reporting problems"}]]}],["$","div",null,{"className":"panel-body text-[12px] text-[var(--text-1)] leading-[1.75]","children":["$","p",null,{"children":"Found a factual error in a dossier? Open an issue on the repo. Have a target you want on the queue? Same place."}]}]]}]
+15:["$","$L34",null,{"children":["$","$1b",null,{"name":"Next.MetadataOutlet","children":"$@35"}]}]
+1c:["$","meta","10",{"name":"category","content":"security"}]
+1d:["$","link","11",{"rel":"canonical","href":"https://blacknet.cc"}]
+1e:["$","meta","12",{"property":"og:title","content":"blacknet // operator console"}]
+1f:["$","meta","13",{"property":"og:description","content":"Static reverse-engineering dossiers for shipped software. Nothing executed. Nothing scraped at scale."}]
+20:["$","meta","14",{"property":"og:url","content":"https://blacknet.cc"}]
+21:["$","meta","15",{"property":"og:site_name","content":"blacknet"}]
+22:["$","meta","16",{"property":"og:image","content":"https://blacknet.cc/og.svg"}]
+23:["$","meta","17",{"property":"og:image:width","content":"1200"}]
+24:["$","meta","18",{"property":"og:image:height","content":"630"}]
+25:["$","meta","19",{"property":"og:image:alt","content":"blacknet"}]
+26:["$","meta","20",{"property":"og:type","content":"website"}]
+27:["$","meta","21",{"name":"twitter:card","content":"summary_large_image"}]
+28:["$","meta","22",{"name":"twitter:title","content":"blacknet // operator console"}]
+29:["$","meta","23",{"name":"twitter:description","content":"Static reverse-engineering dossiers for shipped software."}]
+2a:["$","meta","24",{"name":"twitter:image","content":"https://blacknet.cc/og.svg"}]
+2b:["$","link","25",{"rel":"shortcut icon","href":"/blacknet-mark.svg"}]
+2c:["$","link","26",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}]
+2d:["$","link","27",{"rel":"icon","href":"/blacknet-mark.svg","type":"image/svg+xml"}]
+2e:["$","link","28",{"rel":"apple-touch-icon","href":"/blacknet-mark.svg"}]
+2f:["$","$L36","29",{}]
+30:["$","meta",null,{"name":"next-size-adjust","content":""}]
+c:300
+35:null
+33:true
+c:C
+32:0
+e:"$undefined"
+b:"$undefined"
+31:"$undefined"
+16:"$undefined"

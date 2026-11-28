@@ -1,0 +1,74 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/2zdv6gn97cas0.js"
+3:"/_next/static/chunks/2-pc5rxcve_e7.js"
+4:"/_next/static/chunks/3s105ko9ew7g1.js"
+5:I[75728,["$2","$3","$4"],"default"]
+6:I[71340,["$2","$3","$4"],"default"]
+7:I[86952,["$2","$3","$4"],"default"]
+8:I[64783,["$2","$3","$4"],"default"]
+9:I[39756,["$2","$3","$4"],"default"]
+a:I[37457,["$2","$3","$4"],"default"]
+1a:"ViewportBoundary"
+1b:I[97367,["$2","$3","$4"],"$1a"]
+1c:"MetadataBoundary"
+1d:I[97367,["$2","$3","$4"],"$1c"]
+1e:"$Sreact.suspense"
+:HL["/_next/static/chunks/29q3g3lip2ezt.css","style"]
+:HL["/_next/static/chunks/3mpe2jejel0v2.css","style"]
+c:X
+10:Tb0a,[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"blacknet","item":"https://blacknet.cc/"},{"@type":"ListItem","position":2,"name":"apps","item":"https://blacknet.cc/apps"},{"@type":"ListItem","position":3,"name":"xeno","item":"https://blacknet.cc/apps/xeno"}]},{"@context":"https://schema.org","@type":"TechArticle","headline":"Xeno v1.3.60 — Reverse-Engineering Dossier","description":"Full static RE dossier: architecture, injection flow, pseudocode, IPC, network, strings.","url":"https://blacknet.cc/apps/xeno","image":"https://blacknet.cc/og.svg","datePublished":"2026-11-28T01:44:52.372Z","dateModified":"2026-11-28T01:44:52.373Z","author":{"@type":"Organization","name":"blacknet"},"publisher":{"@type":"Organization","name":"blacknet","logo":{"@type":"ImageObject","url":"https://blacknet.cc/blacknet-mark.svg"}},"mainEntityOfPage":"https://blacknet.cc/apps/xeno","keywords":"xeno, roblox executor, luau bytecode, cross-process write, reverse engineering","articleSection":"Reverse Engineering","inLanguage":"en"},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is Xeno?","acceptedAnswer":{"@type":"Answer","text":"Xeno v1.3.60 is a Roblox script executor. It ships as an NSIS installer bundling an Electron shell + a 2.4 MB native x86-64 DLL. The DLL does the actual cross-process bytecode writes."}},{"@type":"Question","name":"How does Xeno attach to Roblox?","acceptedAnswer":{"@type":"Answer","text":"Xeno.dll calls OpenProcess on RobloxPlayerBeta.exe, walks static offsets to CoreGui→RobloxGui→Modules, locates the locale translation ModuleScript, and uses VirtualAllocEx + NtWriteVirtualMemory to overwrite its bytecode field with a Luau-compiled bootstrap."}},{"@type":"Question","name":"Does Xeno load a DLL into Roblox?","acceptedAnswer":{"@type":"Answer","text":"No. Xeno.dll runs inside the Electron process. Nothing is injected into Roblox at the loader level. The injection is a bytecode replacement in a known ModuleScript, which Roblox's own VM executes."}},{"@type":"Question","name":"What's the role of the HTTP server?","acceptedAnswer":{"@type":"Answer","text":"Xeno.dll starts an httplib HTTP server on localhost. The in-game bootstrap connects back to it to receive user scripts and report attach status."}},{"@type":"Question","name":"Where does Xeno get its offsets?","acceptedAnswer":{"@type":"Answer","text":"A zstd-encrypted offset table ep.zst.enc is fetched from x3no.pages.dev. On decompress failure, it falls back to a Pastebin raw."}},{"@type":"Question","name":"Is this report produced by running Xeno?","acceptedAnswer":{"@type":"Answer","text":"No. This is static analysis only. The target binary was never executed on the host producing this dossier."}}]}]16:X
+16:C
+17:[["children",{"s":"__PAGE__","h":160,"d":{"r":"$L18","p":"$@19","v":null,"s":"$c"}}]]
+13:[["children",{"s":"architecture","h":96,"d":{"r":"$L14","p":"$@15","v":"$16","s":"$c"},"c":"$Q17"}]]
+f:[["children",{"s":"xeno","h":96,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/2wc1ewfi6yad7.js","async":true}]],[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$10"}}],"$L11"]]}],"p":"$@12","v":null,"s":"$c"},"c":"$Q13"}]]
+d:[["children",{"s":"apps","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}],"p":"$@e","v":null,"s":"$c"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/29q3g3lip2ezt.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/3mpe2jejel0v2.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2zdv6gn97cas0.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/2-pc5rxcve_e7.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/3s105ko9ew7g1.js","async":true}]],["$","html",null,{"lang":"en","data-theme":"dark","className":"ra-nqq_variable SPWpLW_variable","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#000000"}],["$","meta",null,{"name":"color-scheme","content":"dark"}],["$","script",null,{"defer":true,"src":"https://stats-relay.vercel.app/m.js?s=blacknet"}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"blacknet\",\"url\":\"https://blacknet.cc\",\"description\":\"Operator console for static reverse-engineering reports.\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https://blacknet.cc/apps?q={search_term_string}\",\"query-input\":\"required name=search_term_string\"}}"}}]]}],["$","body",null,{"className":"scanlines crt vignette has-letterbox","children":[["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","div",null,{"className":"grid-bg min-h-screen","style":{"position":"relative","zIndex":1},"children":[["$","$L8",null,{}],["$","main",null,{"className":"max-w-[1240px] mx-auto px-6 py-8","children":["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}],["$","footer",null,{"className":"border-t border-[var(--line)] mt-20","children":["$","div",null,{"className":"max-w-[1240px] mx-auto px-6 py-5 text-[10px] uppercase tracking-[0.2em] text-[var(--text-2)] flex flex-wrap gap-x-8 gap-y-2 mono","children":[["$","span",null,{"children":"static · no exec"}],["$","span",null,{"children":"read only"}],["$","span",null,{"children":"v0.1"}]]}]}]]}]]}]]}]]}],"p":"$@b","v":null,"s":"$c"},"c":"$Qd"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1b",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1d",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"xeno · dossier · v1.3.60"}],["$","meta","1",{"name":"description","content":"Full static reverse-engineering dossier of Xeno v1.3.60 — a Luau bytecode injector dressed as an Electron app. Attach mechanism, bytecode patch flow, pseudocode of every DLL export, IPC surface, network map, strings catalog."}],["$","meta","2",{"name":"application-name","content":"blacknet"}],["$","meta","3",{"name":"author","content":"blacknet"}],["$","link","4",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","5",{"name":"keywords","content":"xeno,xeno executor,xeno v1.3.60,roblox executor,luau bytecode injector,roblox executor reverse engineering,nt write virtual memory,openprocess,virtualallocex,electron app reverse engineering,ida ghidra decompile,roblox byte code patch,modulescript injection,translation module hijack"}],"$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f","$L30","$L31","$L32","$L33","$L34","$L35"]}]}],null]}],"$L36"]}],"p":"$@37","v":null,"s":"$c"}},"a":"$@38","u":"$@39","b":"bCYrMULYhGzgNj9kxbrvl"}
+3a:"/_next/static/chunks/2wc1ewfi6yad7.js"
+3b:I[41345,["$2","$3","$4","$3a"],"default"]
+3c:I[47257,["$2","$3","$4"],"ClientPageRoot"]
+3d:"/_next/static/chunks/0ur7sm29__o25.js"
+3e:"/_next/static/chunks/155_21ttc_k2u.js"
+3f:"/_next/static/chunks/26ib5d5o-0xis.js"
+40:I[11032,["$2","$3","$4","$3a","$3d","$3e","$3f"],"default"]
+43:I[97367,["$2","$3","$4"],"OutletBoundary"]
+45:I[27201,["$2","$3","$4"],"IconMark"]
+11:["$","$L3b",null,{"nav":[{"href":"/apps/xeno","label":"OVERVIEW","idx":"00"},{"href":"/apps/xeno/architecture","label":"ARCH","idx":"01"},{"href":"/apps/xeno/injection","label":"INJECTION","idx":"02"},{"href":"/apps/xeno/components","label":"COMPONENTS","idx":"03"},{"href":"/apps/xeno/binary","label":"BINARY","idx":"04"},{"href":"/apps/xeno/pseudocode","label":"PSEUDOCODE","idx":"05"},{"href":"/apps/xeno/ipc","label":"IPC","idx":"06"},{"href":"/apps/xeno/network","label":"NETWORK","idx":"07"},{"href":"/apps/xeno/strings","label":"STRINGS","idx":"08"},{"href":"/apps/xeno/diagnostics","label":"LOGS","idx":"09"}],"appName":"XENO","appVersion":"v1.3.60","appKind":"roblox / executor","children":["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]}]
+14:["$","$1","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}]
+18:["$","$1","c",{"children":[["$","$L3c",null,{"Component":"$40","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@41","$@42"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ur7sm29__o25.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/155_21ttc_k2u.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/26ib5d5o-0xis.js","async":true}]],["$","$L43",null,{"children":["$","$1e",null,{"name":"Next.MetadataOutlet","children":"$@44"}]}]]}]
+1f:["$","meta","6",{"name":"creator","content":"blacknet"}]
+20:["$","meta","7",{"name":"publisher","content":"blacknet"}]
+21:["$","meta","8",{"name":"robots","content":"index, follow"}]
+22:["$","meta","9",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}]
+23:["$","meta","10",{"name":"category","content":"security"}]
+24:["$","link","11",{"rel":"canonical","href":"https://blacknet.cc/apps/xeno"}]
+25:["$","meta","12",{"property":"og:title","content":"xeno · dossier · v1.3.60"}]
+26:["$","meta","13",{"property":"og:description","content":"Luau bytecode injector dressed as an Electron app. Full static RE dossier."}]
+27:["$","meta","14",{"property":"og:image","content":"https://blacknet.cc/og.svg"}]
+28:["$","meta","15",{"property":"og:image:width","content":"1200"}]
+29:["$","meta","16",{"property":"og:image:height","content":"630"}]
+2a:["$","meta","17",{"property":"og:type","content":"article"}]
+2b:["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}]
+2c:["$","meta","19",{"name":"twitter:title","content":"xeno · dossier"}]
+2d:["$","meta","20",{"name":"twitter:description","content":"Luau bytecode injector dossier."}]
+2e:["$","meta","21",{"name":"twitter:image","content":"https://blacknet.cc/og.svg"}]
+2f:["$","meta","22",{"name":"twitter:image:width","content":"1200"}]
+30:["$","meta","23",{"name":"twitter:image:height","content":"630"}]
+31:["$","link","24",{"rel":"shortcut icon","href":"/blacknet-mark.svg"}]
+32:["$","link","25",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}]
+33:["$","link","26",{"rel":"icon","href":"/blacknet-mark.svg","type":"image/svg+xml"}]
+34:["$","link","27",{"rel":"apple-touch-icon","href":"/blacknet-mark.svg"}]
+35:["$","$L45","28",{}]
+36:["$","meta",null,{"name":"next-size-adjust","content":""}]
+c:300
+41:{}
+42:"$18:props:children:0:props:serverProvidedParams:params"
+44:null
+39:true
+c:C
+38:0
+15:"$undefined"
+e:"$undefined"
+b:"$undefined"
+37:"$undefined"
+19:"$undefined"
+12:"$undefined"

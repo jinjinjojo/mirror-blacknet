@@ -1,0 +1,13 @@
+{
+  "name": "blacknet.cc",
+  "short_name": "blacknet",
+  "description": "Operator console for static reverse-engineering dossiers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    { "src": "/blacknet-mark.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "categories": ["security", "developer"]
+}

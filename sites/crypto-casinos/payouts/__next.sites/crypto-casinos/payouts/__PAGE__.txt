@@ -1,0 +1,44 @@
+4:"$Sreact.fragment"
+5:"/_next/static/chunks/2zdv6gn97cas0.js"
+6:"/_next/static/chunks/2-pc5rxcve_e7.js"
+7:"/_next/static/chunks/3s105ko9ew7g1.js"
+8:I[39756,["$5","$6","$7"],"default"]
+9:I[37457,["$5","$6","$7"],"default"]
+e:"/_next/static/chunks/3l83s-cc70y_n.js"
+f:"/_next/static/chunks/155_21ttc_k2u.js"
+10:"/_next/static/chunks/0cnp3e5aqb383.js"
+11:I[38286,["$5","$6","$7","$e","$f","$10"],"Section"]
+12:I[38286,["$5","$6","$7","$e","$f","$10"],"Chip"]
+13:I[67776,["$5","$6","$7","$e","$f","$10"],"default"]
+14:I[38286,["$5","$6","$7","$e","$f","$10"],"Card"]
+15:I[38286,["$5","$6","$7","$e","$f","$10"],"KeyVal"]
+16:I[38286,["$5","$6","$7","$e","$f","$10"],"Mono"]
+17:I[38286,["$5","$6","$7","$e","$f","$10"],"Table"]
+1e:"ViewportBoundary"
+1f:I[97367,["$5","$6","$7"],"$1e"]
+20:"MetadataBoundary"
+21:I[97367,["$5","$6","$7"],"$20"]
+22:"$Sreact.suspense"
+23:I[27201,["$5","$6","$7"],"IconMark"]
+b:X
+b:C
+c:X
+d:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$4","c",{"children":[[["$","$L11",null,{"num":"01","kicker":"withdrawal lifecycle","title":"What happens when you cash out","right":["$","$L12",null,{"kind":"accent","children":"interactive"}],"children":["$","$L13",null,{}]}],["$","$L11",null,{"num":"02","kicker":"plumbing","title":"Wallets, KYC and chargebacks","children":[["$","$L14",null,{"children":[["$","$L15","Chargebacks",{"k":"Chargebacks","v":["None. A crypto deposit can't be clawed back, which is why cards cost 2–5% and crypto under 1%."," ",["$","a",null,{"href":"https://sccgmanagement.com/research/the-border-toll-what-crypto-casinos-keep-what-they-lose-and-what-crosses-back/","target":"_blank","rel":"noreferrer","className":"mono text-[10px] uppercase tracking-[0.15em] text-[var(--text-2)] hover:text-[var(--accent)] whitespace-nowrap","children":"src ↗"}]]}],["$","$L15","Custody",{"k":"Custody","v":["Hot / cold split with multisig cold storage. No source confirms which custody vendor any big casino uses."," ",["$","a",null,{"href":"https://track360.io/blog/crypto-casino-wallet-treasury-hot-cold-proof-of-reserves-operator-2026","target":"_blank","rel":"noreferrer","className":"mono text-[10px] uppercase tracking-[0.15em] text-[var(--text-2)] hover:text-[var(--accent)] whitespace-nowrap","children":"src ↗"}]]}],["$","$L15","Source-of-funds check",{"k":"Source-of-funds check","v":["Stake's Level 4 verification asks for payslips or bank statements and can be triggered by a large withdrawal."," ",["$","a",null,{"href":"https://www.thespike.gg/reviews/stake-com/verification","target":"_blank","rel":"noreferrer","className":"mono text-[10px] uppercase tracking-[0.15em] text-[var(--text-2)] hover:text-[var(--accent)] whitespace-nowrap","children":"src ↗"}]]}]]}],["$","$L14",null,{"className":"mt-3","accent":true,"children":["$","p",null,{"className":"text-[12px] text-[var(--text-1)] leading-[1.8]","children":[["$","strong",null,{"className":"text-[var(--text-0)]","children":"The asymmetry."}]," Depositing is instant and needs only an email. Withdrawing a big win can need a passport, proof of address and payslips. The casino can play on your deposit right away, while your withdrawal waits on the casino's own review. Terms that let it void winnings for ",["$","$L16",null,{"children":"irregular play"}]," or bonus breaches are applied at this step, not when you deposit."]}]}]]}],["$","$L11",null,{"num":"03","kicker":"when it goes wrong","title":"Hacks and unpaid winnings","children":["$","$L17",null,{"cols":["When","What happened","Amount","Evidence",""],"rows":[[["$","$L16","w",{"children":"Jul 2023"}],["$","span","d",{"className":"text-[var(--text-1)] text-[12px]","children":"CoinsPaid (payment gateway used by many casinos) hacked"}],["$","$L16","a",{"className":"text-[var(--bad)]","children":"$$37.3M"}],["$","$L12","e",{"kind":"ok","children":"reported"}],["$","a","s",{"href":"https://news.bloomberglaw.com/crypto/crypto-firm-coinspaid-reports-37-million-hack-to-estonia-police","target":"_blank","rel":"noreferrer","className":"mono text-[10px] uppercase tracking-[0.15em] text-[var(--text-2)] hover:text-[var(--accent)] whitespace-nowrap","children":"src ↗"}]],[["$","$L16","w",{"children":"Sep 2023"}],["$","span","d",{"className":"text-[var(--text-1)] text-[12px]","children":"Stake ETH / BSC hot wallets drained; FBI attributed it to North Korea's Lazarus Group"}],["$","$L16","a",{"className":"text-[var(--bad)]","children":"$$41M"}],["$","$L12","e",{"kind":"ok","children":"reported"}],["$","a","s",{"href":"https://www.securityweek.com/fbi-blames-north-korean-hackers-for-41-million-stake-com-heist/","target":"_blank","rel":"noreferrer","className":"mono text-[10px] uppercase tracking-[0.15em] text-[var(--text-2)] hover:text-[var(--accent)] whitespace-nowrap","children":"src ↗"}]],[["$","$L16","w",{"children":"Nov 2024"}],["$","span","d",{"className":"text-[var(--text-1)] text-[12px]","children":"Curaçao court declared BC.Game's operators bankrupt over unpaid winnings (claims of $1.48M and $680k). BC.Game disputed it and moved to a Belize company under an Anjouan licence."}],"$L18","$L19","$L1a"]]}]}]],["$L1b"],"$L1c"]}],"p":"$@1d","v":null,"s":"$c"}}]]
+3:[["children",{"s":"payouts","h":64,"d":{"r":["$","$4","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]]}],"p":"$@a","v":"$b","s":"$c"},"c":"$Qd"}]]
+2:[["children",{"s":"crypto-casinos","h":32,"c":"$Q3"}]]
+1:[["children",{"s":"sites","h":96,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$4","h",{"children":[null,["$","$L1f",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L21",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"payouts + withdrawals · crypto casinos · blacknet"}],["$","meta","1",{"name":"description","content":"What happens when you cash out of a crypto casino: risk checks, KYC tiers, manual review, hot and cold wallets, hacks and unpaid winnings."}],["$","meta","2",{"name":"application-name","content":"blacknet"}],["$","meta","3",{"name":"author","content":"blacknet"}],["$","link","4",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","5",{"name":"keywords","content":"crypto casino,how crypto casinos make money,stake.com revenue,house edge,crypto casino white label,softswiss,rakeback explained,crypto casino withdrawal,curacao gaming licence,anjouan licence,sweepstakes casino,gambling affiliate negative carryover"}],["$","meta","6",{"name":"creator","content":"blacknet"}],["$","meta","7",{"name":"publisher","content":"blacknet"}],["$","meta","8",{"name":"robots","content":"index, follow"}],["$","meta","9",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","10",{"name":"category","content":"security"}],["$","link","11",{"rel":"canonical","href":"https://blacknet.cc/sites/crypto-casinos/payouts"}],["$","meta","12",{"property":"og:title","content":"payouts + withdrawals"}],["$","meta","13",{"property":"og:description","content":"What happens when you cash out of a crypto casino: risk checks, KYC tiers, manual review, hot and cold wallets, hacks and unpaid winnings."}],["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","15",{"name":"twitter:title","content":"blacknet // operator console"}],["$","meta","16",{"name":"twitter:description","content":"Static reverse-engineering dossiers for shipped software."}],["$","meta","17",{"name":"twitter:image","content":"https://blacknet.cc/og.svg"}],["$","link","18",{"rel":"shortcut icon","href":"/blacknet-mark.svg"}],["$","link","19",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","20",{"rel":"icon","href":"/blacknet-mark.svg","type":"image/svg+xml"}],["$","link","21",{"rel":"apple-touch-icon","href":"/blacknet-mark.svg"}],["$","$L23","22",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@24","v":null,"s":"$c"}},"a":"$@25","u":"$@26","b":"bCYrMULYhGzgNj9kxbrvl"}
+27:I[97367,["$5","$6","$7"],"OutletBoundary"]
+18:["$","$L16","a",{"className":"text-[var(--bad)]","children":"$$2M+ unpaid"}]
+19:["$","$L12","e",{"kind":"ok","children":"reported"}]
+1a:["$","a","s",{"href":"https://igamingbusiness.com/legal-compliance/bc-game-curacao-bankruptcy","target":"_blank","rel":"noreferrer","className":"mono text-[10px] uppercase tracking-[0.15em] text-[var(--text-2)] hover:text-[var(--accent)] whitespace-nowrap","children":"src ↗"}]
+1b:["$","script","script-0",{"src":"/_next/static/chunks/0cnp3e5aqb383.js","async":true}]
+1c:["$","$L27",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+26:true
+c:300
+28:null
+c:C
+25:0
+a:"$undefined"
+24:"$undefined"
+1d:"$undefined"

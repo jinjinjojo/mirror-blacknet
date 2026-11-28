@@ -1,0 +1,36 @@
+4:"$Sreact.fragment"
+5:"/_next/static/chunks/2zdv6gn97cas0.js"
+6:"/_next/static/chunks/2-pc5rxcve_e7.js"
+7:"/_next/static/chunks/3s105ko9ew7g1.js"
+8:I[39756,["$5","$6","$7"],"default"]
+9:I[37457,["$5","$6","$7"],"default"]
+e:"/_next/static/chunks/3l83s-cc70y_n.js"
+f:"/_next/static/chunks/155_21ttc_k2u.js"
+10:"/_next/static/chunks/1qex2jmj-7x0u.js"
+11:I[38286,["$5","$6","$7","$e","$f","$10"],"Section"]
+12:I[38286,["$5","$6","$7","$e","$f","$10"],"Chip"]
+13:I[86137,["$5","$6","$7","$e","$f","$10"],"default"]
+14:I[38286,["$5","$6","$7","$e","$f","$10"],"Card"]
+15:I[97367,["$5","$6","$7"],"OutletBoundary"]
+16:"$Sreact.suspense"
+19:"ViewportBoundary"
+1a:I[97367,["$5","$6","$7"],"$19"]
+1b:"MetadataBoundary"
+1c:I[97367,["$5","$6","$7"],"$1b"]
+1d:I[27201,["$5","$6","$7"],"IconMark"]
+b:X
+b:C
+c:X
+d:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$4","c",{"children":[[["$","$L11",null,{"num":"01","kicker":"17 sites · public pages only","title":"Site by site","right":["$","$L12",null,{"kind":"accent","children":"interactive"}],"children":["$","$L13",null,{}]}],["$","$L11",null,{"num":"02","kicker":"custom vs rented","title":"How to tell a white-label casino","children":["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-2 gap-3","children":[["$","$L14","Shared API paths",{"title":"Shared API paths","children":["$","p",null,{"className":"text-[12px] text-[var(--text-1)] leading-[1.7]","children":"White-label brands expose identical first-party paths. BitStarz and 7Bit both serve /api/player/stats, /api/current_ip, /api/info/locales and a Centrifugo socket. Custom builds name things their own way: Gamdom /client-api, Winna api2/v1, Stake /_api/graphql."}]}],["$","$L14","Platform payment IDs",{"title":"Platform payment IDs","children":["$","p",null,{"className":"text-[12px] text-[var(--text-1)] leading-[1.7]","children":"White-label cashiers list platform method IDs like cryptoprocessing~coinspaid-*, fppseamless-* and devcode-*, and load the platform's payment script. Custom builds wire vendors in directly (Fireblocks, Praxis, Swapped, Veriff)."}]}],["$","$L14","Corporate pattern",{"title":"Corporate pattern","children":["$","p",null,{"className":"text-[12px] text-[var(--text-1)] leading-[1.7]","children":"White-label brands tend to be Curaçao B.V. companies with near-identical terms and BTC-denominated weekly caps. Custom crypto-native brands are often Anjouan-licensed with Costa Rica or Belize companies."}]}],["$","$L14","Build fingerprints",{"title":"Build fingerprints","children":["$","p",null,{"className":"text-[12px] text-[var(--text-1)] leading-[1.7]","children":"Custom builds ship their own markers: version strings, git hashes, hundreds of named GraphQL operations, in-house originals. White-label sites look the same across brands under different skins."}]}],["$","$L14","Game IDs can mislead",{"title":"Game IDs can mislead","children":["$","p",null,{"className":"text-[12px] text-[var(--text-1)] leading-[1.7]","children":"softswiss_* game IDs only mean the SoftSwiss game aggregator is used, not the SoftSwiss casino platform. Gamdom, Stake and Shuffle are custom but source slots this way."}]}]]}]}]],[["$","script","script-0",{"src":"/_next/static/chunks/1qex2jmj-7x0u.js","async":true}]],["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]]}],"p":"$@18","v":null,"s":"$c"}}]]
+3:[["children",{"s":"operators","h":64,"d":{"r":["$","$4","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]]}],"p":"$@a","v":"$b","s":"$c"},"c":"$Qd"}]]
+2:[["children",{"s":"crypto-casinos","h":32,"c":"$Q3"}]]
+1:[["children",{"s":"sites","h":96,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$4","h",{"children":[null,["$","$L1a",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1c",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$16",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"operators · crypto casinos · blacknet"}],["$","meta","1",{"name":"description","content":"Stake, Roobet, BC.Game, Shuffle, Gamdom, BitStarz, 7Bit and more: front-end stack, API, vendors, money mechanics and licence for each, plus how to spot a white-label casino."}],["$","meta","2",{"name":"application-name","content":"blacknet"}],["$","meta","3",{"name":"author","content":"blacknet"}],["$","link","4",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","5",{"name":"keywords","content":"crypto casino,how crypto casinos make money,stake.com revenue,house edge,crypto casino white label,softswiss,rakeback explained,crypto casino withdrawal,curacao gaming licence,anjouan licence,sweepstakes casino,gambling affiliate negative carryover"}],["$","meta","6",{"name":"creator","content":"blacknet"}],["$","meta","7",{"name":"publisher","content":"blacknet"}],["$","meta","8",{"name":"robots","content":"index, follow"}],["$","meta","9",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","10",{"name":"category","content":"security"}],["$","link","11",{"rel":"canonical","href":"https://blacknet.cc/sites/crypto-casinos/operators"}],["$","meta","12",{"property":"og:title","content":"operators"}],["$","meta","13",{"property":"og:description","content":"Stake, Roobet, BC.Game, Shuffle, Gamdom, BitStarz, 7Bit and more: front-end stack, API, vendors, money mechanics and licence for each, plus how to spot a white-label casino."}],["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","15",{"name":"twitter:title","content":"blacknet // operator console"}],["$","meta","16",{"name":"twitter:description","content":"Static reverse-engineering dossiers for shipped software."}],["$","meta","17",{"name":"twitter:image","content":"https://blacknet.cc/og.svg"}],["$","link","18",{"rel":"shortcut icon","href":"/blacknet-mark.svg"}],["$","link","19",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","20",{"rel":"icon","href":"/blacknet-mark.svg","type":"image/svg+xml"}],["$","link","21",{"rel":"apple-touch-icon","href":"/blacknet-mark.svg"}],["$","$L1d","22",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$c"}},"a":"$@1f","u":"$@20","b":"bCYrMULYhGzgNj9kxbrvl"}
+17:null
+20:true
+c:300
+c:C
+1f:0
+a:"$undefined"
+1e:"$undefined"
+18:"$undefined"
